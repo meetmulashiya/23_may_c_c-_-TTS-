@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a;
+	clrscr();
+	printf("Enter A Number:");
+	scanf("%d",&a);
+	printf("\nSqure of tha number %d is %d",a,a*a);
+	printf("\nCube of tha number %d is %d",a,a*a*a);
+	getch();
+}
