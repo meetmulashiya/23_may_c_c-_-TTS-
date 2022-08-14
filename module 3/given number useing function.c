@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 
 int fact(int);
 
@@ -20,4 +21,6 @@ int fact(int n)
         f=f*i;
     }
     return f;
+getch();	
+	
 }
