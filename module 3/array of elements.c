@@ -4,6 +4,7 @@ void main()
 {
 
     int a[5],i,j, temp;
+    clrscr();
     printf("Enter array Elements: "); 
     for(i=0;i<5;i++)
     {
@@ -26,7 +27,6 @@ void main()
     {            
         print("%d", a[i]);
     }
-
-    return 0;
+    getch();
 
 }
